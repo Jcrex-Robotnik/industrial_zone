@@ -15,5 +15,5 @@ low_performance_simulation: false
 
 # Map — loaded via service call after localization starts.
 # map_package is a ROS 2 package name, map_path is relative within it.
-map_package: mi_zona_industrial_description
+map_package: industrial_zone
 map_path: maps/zona_industrial/Mapa_v2.yaml
