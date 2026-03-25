@@ -1,0 +1,19 @@
+# Configuration for industrial_zone bringup.
+# Edit this file instead of passing CLI arguments.
+# CLI arguments (key:=value) still override these values.
+
+# Robot configuration
+robot: rbkairos
+robot_model: rbkairos_plus
+
+# Simulation
+low_performance_simulation: false
+
+# World — resolved automatically from the industrial_zone package.
+# Override with an absolute path if needed.
+# world_path: /custom/path/to/world.world
+
+# Map — loaded via service call after localization starts.
+# map_package is a ROS 2 package name, map_path is relative within it.
+map_package: mi_zona_industrial_description
+map_path: maps/zona_industrial/Mapa_v2.yaml
